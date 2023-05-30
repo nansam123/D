@@ -5,8 +5,6 @@ df = pd.DataFrame(boston_dataset.data, columns=boston_dataset.feature_names)
 df['MEDV'] = boston_dataset.target
 df.head(n=10)  
 
-# If load_boston does not work then download the data and use this.
-# Data : https://github.com/afnan47/sem8/blob/master/DL/1_boston_housing.csv
 import pandas as pd
 df = pd.read_csv("./1_boston_housing.csv")
 
